@@ -44,6 +44,7 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 
 - What is the dataset that is being used?
 	SkinCancer_ISIC_Dataset :Skin Imaging Collaboration (ISIC) provided 2357 images of benign and malignant oncological disorders, which make up the dataset.  
+	Dataset used https://drive.google.com/file/d/1xLfSQUGDl8ezNNbUkpuHOYvSpTyxVhCs/view?usp=sharing
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions.
@@ -52,6 +53,12 @@ The Model acuracy:
 
 	Epoch 20: val_accuracy improved from 0.81189 to 0.84615, saving model to my_model1.keras
 	179/179 ━━━━━━━━━━━━━━━━━━━━ 98s 547ms/step - accuracy: 0.8630 - loss: 0.3811 - val_accuracy: 0.8462 - val_loss: 0.5555
+	
+	Epoch 30/30
+	179/179 ━━━━━━━━━━━━━━━━━━━━ 102s 572ms/step - accuracy: 0.9149 - loss: 0.2247 - val_accuracy: 0.8573 - val_loss: 0.6268
+
+	With more epoch the model is getting more overfitte
+
 	Dataset Distribution:
 	Class=0, n=114 (5.092%)
 	Class=1, n=376 (16.793%)
